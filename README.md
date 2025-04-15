@@ -3,8 +3,7 @@
 <p align="center">
  <a href="#technologies">Technologies</a> •
  <a href="#dependencies">Dependencies</a> •
- <a href="#started">Getting Started</a> • 
- <a href="#contribute">Contribute</a>
+ <a href="#started">Getting Started</a> 
 </p>
 
 <p align="center">
@@ -63,22 +62,5 @@ run the project
 ```bash
 npm start
 ```
-
-<h2 id="contribute">📫 Contribute</h2>
-
-<p>Contributions are always welcome!</p>
-
-<p>If you'd like to contribute to this project, follow these steps:</p>
-<ol>
-    <li>Fork the repository.</li>
-    <li>Create a new branch for your feature or bug fix: <code>git checkout -b feature/YourFeatureName</code>.</li>
-    <li>Make your changes and commit them: <code>git commit -m "Add your message here"</code>.</li>
-    <li>Push your branch to your forked repository: <code>git push origin feature/YourFeatureName</code>.</li>
-    <li>Open a pull request with a clear description of your changes.</li>
-</ol>
-
-<p>For major changes, please open an issue first to discuss what you'd like to change.</p>
-
-<p>Thank you for your contributions! 🙌</p>
 
 <p align="center">Made with ❤️ by Sharifa26</p>
