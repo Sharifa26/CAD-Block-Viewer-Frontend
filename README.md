@@ -38,7 +38,7 @@
 How to clone your project
 
 ```bash
-git clone [https://github.com/Sharifa26/CAD-Block-Viewer-Frontend.git](https://github.com/Sharifa26/CAD-Block-Viewer-Frontend.git)
+git clone https://github.com/Sharifa26/CAD-Block-Viewer-Frontend.git
 cd cad-block-viewer-frontend
 ```
 
