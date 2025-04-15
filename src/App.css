@@ -110,11 +110,11 @@ body {
 }
 
 .Toastify__toast--success {
-  background: #245f73;
+  background: #066a3a;
   color: #f2f0ef;
 }
 
 .Toastify__toast--error {
-  background: #733e24;
+  background: #af1b1b;
   color: #f2f0ef;
 }
