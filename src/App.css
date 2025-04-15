@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #95b8bc;
+  color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: #245f73;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  font-weight: bold;
+  font-size: 40px;
+  color: #ede9e9;
+  font-family: "Raleway", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-links a {
+  margin-right: 80px;
+  text-decoration: none;
+  color: #f2f0ef;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-links a:hover {
+  color: #bbbdbc;
+}
+
+.upload-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.left-side {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.upload-text {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: left;
+  color: #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.upload-text h2 {
+  font-size: 45px;
+  margin-bottom: 8px;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+}
+
+.upload-text p {
+  font-size: 22px;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+}
+
+.upload-container {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #ecf3ef;
+  padding: 20px;
+  width: 50%;
+  margin-left: 200px;
+  margin-right: auto;
+  border-radius: 16px;
+  color: #000000;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.upload-btn {
+  background-color: #245f73;
+  color: #f2f0ef;
+  padding: 10px 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.upload-btn:hover {
+  background-color: #733e24;
+  color: #f2f0ef;
+}
+
+.image {
+  width: 36%;
+  height: 36%;
+  object-fit: cover;
+  margin-right: 120px;
+  margin-left: auto;
+  margin-top: 2px;
+}
+
+.Toastify__toast--success {
+  background: #245f73;
+  color: #f2f0ef;
+}
+
+.Toastify__toast--error {
+  background: #733e24;
+  color: #f2f0ef;
 }

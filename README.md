@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+<h1 align="center" style="font-weight: bold;">Cad Block Viewer frontend 🧱 </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+ <a href="#technologies">Technologies</a> •
+ <a href="#dependencies">Dependencies</a> •
+ <a href="#started">Getting Started</a> • 
+ <a href="#contribute">Contribute</a>
+</p>
 
-## Available Scripts
+<p align="center">
+    <b>This project is a React.js frontend for the Node.js backend service that allows users to upload `.dxf` CAD files, extract block and entity data (like INSERT, SPLINE), and store the data in a PostgreSQL database.
+</b>
+</p>
 
-In the project directory, you can run:
+<h2 id="technologies">💻 Frontend Technologies</h2>
 
-### `npm start`
+<ul>
+    <li>React.js</li>
+    <li>React Router</li>
+    <li>Tailwind CSS</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2 id="dependencies">📦 Dependencies</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<ul>
+    <li>axios</li>
+    <li>react-toastify</li>
+    <li>react-router-dom</li>
+    <li>react-scripts</li>
+    <li>web-vitals</li>
+</ul>
 
-### `npm test`
+<h2 id="started">🚀 Getting Started</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>Follow the steps below to run the project locally:</p>
 
-### `npm run build`
+<h3>Cloning</h3>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+How to clone your project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/Sharifa26/CAD-Block-Viewer-Frontend.git
+cd cad-block-viewer-frontend
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3>Starting</h3>
 
-### `npm run eject`
+install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+build the project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm run build
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
+run the project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2 id="contribute">📫 Contribute</h2>
 
-### Code Splitting
+<p>Contributions are always welcome!</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p>If you'd like to contribute to this project, follow these steps:</p>
+<ol>
+    <li>Fork the repository.</li>
+    <li>Create a new branch for your feature or bug fix: <code>git checkout -b feature/YourFeatureName</code>.</li>
+    <li>Make your changes and commit them: <code>git commit -m "Add your message here"</code>.</li>
+    <li>Push your branch to your forked repository: <code>git push origin feature/YourFeatureName</code>.</li>
+    <li>Open a pull request with a clear description of your changes.</li>
+</ol>
 
-### Analyzing the Bundle Size
+<p>For major changes, please open an issue first to discuss what you'd like to change.</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p>Thank you for your contributions! 🙌</p>
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">Made with ❤️ by Sharifa26</p>
